@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>The Rockets of India</title>
+<h1>The Rockets of India</h1>
+</head>
+<body>
+<img id="img" src="" alt="Loading...">
+<p>Picture number:-</p>
+<input id="picture" type="number" max="4" min="1">
+<button id="ok" onclick= a()>Okay</button>
+<script>
+var pic = ["SLV.png","ASLV.png","PSLV.png","GSLV.png"];
+var n = document.getElementById("picture").value;
+function a (){
+document.getElementById("img").src = pic[n];
+}
+</script>
+</body>
+</html>
